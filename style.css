@@ -1,0 +1,107 @@
+
+:root{
+    --colorBg: #26172E;
+    --colorNav: #465251;
+    --btnColor: #7DFF9A;
+}
+
+/* IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+/* ------------------------ */
+
+* {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    pointer-events: none;
+}
+
+h3 {
+    color: white;
+}
+.leftMain {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 40%;
+}
+.leftMain  h1 {
+    color:rgb(238, 235, 240);
+    text-decoration: dashed;
+    font-weight: bold;
+    font-size: 35pt;
+
+}
+body {
+    background-color: var(--colorBg);
+}
+header {
+    background-color: var(--colorNav);
+    width: 100vw;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.navleft {
+    
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navright {
+    
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    margin-right: 2%;
+    align-items: center;
+}
+.btnNav {
+    background-color: var(--btnColor);
+    height: 25px;
+    width: 90px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.btnNav:hover {
+    background-color: #7A72DB;
+    color:white;
+    box-shadow: 1px 1px 10px 1px #817ae9 ;
+    transition: 0.5s;
+}
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.teste {
+    background: rgb(207, 205, 201);
+    border-radius: 20px 0px 10px;
+}
+.apoio {
+    text-align: end;
+    width: 99%;
+}
+#imgs {
+    color: aliceblue;
+}
+.textContent {
+    height: 70%;
+}
+.currentPage {
+    background-color: aqua;
+}
+
+/*   LAYOUT PROJETOS */
+.projetospage {
+    display: none;
+}
+#making {
+    image-resolution: 500px 500px;
+}
